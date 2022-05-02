@@ -2,6 +2,7 @@
 
 namespace Joedixon\NovaTranslation;
 
+use Illuminate\Http\Request;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
 
@@ -16,6 +17,16 @@ class NovaTranslation extends Tool
     {
         Nova::script('nova-translation', __DIR__.'/../dist/js/tool.js');
         Nova::style('nova-translation', __DIR__.'/../dist/css/tool.css');
+    }
+
+    /**
+     * Build the menu that renders the navigation links for the tool.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return mixed
+     */
+    public function menu(Request $request)
+    {
     }
 
     /**

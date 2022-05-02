@@ -232,13 +232,8 @@
 
 <script>
 import TranslationInput from '../components/TranslationInput.vue';
-import { InteractsWithQueryString } from 'laravel-nova';
 
 export default {
-    mixins: [
-        InteractsWithQueryString,
-    ],
-
     props: ['initialLanguage'],
 
     data() {
