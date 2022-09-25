@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "plugin:vue/recommended",
+    "plugin:prettier-vue/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "globals": {
+    "Nova": true,
+    "moment": true,
+    "axios": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "semi": ["error", "never"]
+  }
+}
