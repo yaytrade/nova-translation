@@ -14,7 +14,7 @@ specifiers:
   postcss: 8.4.19
   prettier: 2.8.1
   resolve-url-loader: 5.0.0
-  sass: 1.56.1
+  sass: 1.56.2
   sass-loader: 13.2.0
   vue-loader: 15.10.1
   vue-template-compiler: 2.7.14
@@ -34,8 +34,8 @@ devDependencies:
   postcss: 8.4.19
   prettier: 2.8.1
   resolve-url-loader: 5.0.0
-  sass: 1.56.1
-  sass-loader: 13.2.0_sass@1.56.1+webpack@5.75.0
+  sass: 1.56.2
+  sass-loader: 13.2.0_sass@1.56.2+webpack@5.75.0
   vue-loader: 15.10.1_z2a3irye3y56jaq776fqxbsiea
   vue-template-compiler: 2.7.14
   webpack: 5.75.0
@@ -5708,7 +5708,7 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /sass-loader/13.2.0_sass@1.56.1+webpack@5.75.0:
+  /sass-loader/13.2.0_sass@1.56.2+webpack@5.75.0:
     resolution: {integrity: sha512-JWEp48djQA4nbZxmgC02/Wh0eroSUutulROUusYJO9P9zltRbNN80JCBHqRGzjd4cmZCa/r88xgfkjGD0TXsHg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -5729,12 +5729,12 @@ packages:
     dependencies:
       klona: 2.0.5
       neo-async: 2.6.2
-      sass: 1.56.1
+      sass: 1.56.2
       webpack: 5.75.0
     dev: true
 
-  /sass/1.56.1:
-    resolution: {integrity: sha512-VpEyKpyBPCxE7qGDtOcdJ6fFbcpOM+Emu7uZLxVrkX8KVU/Dp5UF7WLvzqRuUhB6mqqQt1xffLoG+AndxTZrCQ==}
+  /sass/1.56.2:
+    resolution: {integrity: sha512-ciEJhnyCRwzlBCB+h5cCPM6ie/6f8HrhZMQOf5vlU60Y1bI1rx5Zb0vlDZvaycHsg/MqFfF1Eq2eokAa32iw8w==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
