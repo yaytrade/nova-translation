@@ -31,7 +31,7 @@
         "sass-loader": "13.3.2",
         "vue-loader": "15.10.2",
         "vue-template-compiler": "2.7.14",
-        "webpack": "5.88.2"
+        "webpack": "5.89.0"
     },
     "lint-staged": {
         "resources/**/*.{js,vue}": "eslint --cache --fix",
