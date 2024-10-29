@@ -16,7 +16,7 @@
     "devDependencies": {
         "cross-env": "7.0.3",
         "css-loader": "6.11.0",
-        "eslint": "8.57.0",
+        "eslint": "8.57.1",
         "eslint-config-prettier": "8.10.0",
         "eslint-plugin-prettier-vue": "4.2.0",
         "eslint-plugin-vue": "9.27.0",
