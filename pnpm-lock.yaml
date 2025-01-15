@@ -45,11 +45,11 @@ devDependencies:
     specifier: 5.0.0
     version: 5.0.0
   sass:
-    specifier: 1.83.3
-    version: 1.83.3
+    specifier: 1.83.4
+    version: 1.83.4
   sass-loader:
     specifier: 13.3.3
-    version: 13.3.3(sass@1.83.3)(webpack@5.95.0)
+    version: 13.3.3(sass@1.83.4)(webpack@5.95.0)
   vue-loader:
     specifier: 15.11.1
     version: 15.11.1(css-loader@6.11.0)(prettier@2.8.8)(vue-template-compiler@2.7.16)(webpack@5.95.0)
@@ -5912,7 +5912,7 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /sass-loader@13.3.3(sass@1.83.3)(webpack@5.95.0):
+  /sass-loader@13.3.3(sass@1.83.4)(webpack@5.95.0):
     resolution: {integrity: sha512-mt5YN2F1MOZr3d/wBRcZxeFgwgkH44wVc2zohO2YF6JiOMkiXe4BYRZpSu2sO1g71mo/j16txzUhsKZlqjVGzA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -5932,12 +5932,12 @@ packages:
         optional: true
     dependencies:
       neo-async: 2.6.2
-      sass: 1.83.3
+      sass: 1.83.4
       webpack: 5.95.0(webpack-cli@4.10.0)
     dev: true
 
-  /sass@1.83.3:
-    resolution: {integrity: sha512-t4gb+nTrUeaPb+xzdqDmaMyi8evP0QuUB8o57dYHZF/lIGniqZ/PR/iWGcWoS8vr46F9V7buXFv290fMV6vTIQ==}
+  /sass@1.83.4:
+    resolution: {integrity: sha512-B1bozCeNQiOgDcLd33e2Cs2U60wZwjUUXzh900ZyQF5qUasvMdDZYbQ566LJu7cqR+sAHlAfO6RMkaID5s6qpA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
